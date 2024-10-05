@@ -14,7 +14,7 @@ def upload_file():
         print("File uploaded:", file_path)
         
         # Defining the Destinations
-        destination_folder = "C:/Users/Jusrin S. Millero/OneDrive/Desktop/CodeProjects/Receipt_Reader"
+        destination_folder = "C:/Users/Jusrin S. Millero/OneDrive/Desktop/CodeProjects/Receipt_Reader/files"
         
         # Saving the file to the destination folder
         with open(os.path.join(destination_folder, os.path.basename(file_path)), "wb") as destination_file:
@@ -31,7 +31,7 @@ window = Tk()
 
 # Contructing the window
 window.title("Receipt Reader")
-window.geometry("900x900")
+window.geometry("500x500")
 
 button = Button(window, text="Upload Receipt", command=upload_file)
 button.pack()
