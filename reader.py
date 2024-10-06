@@ -42,16 +42,8 @@ def check_folder():
         if not os.listdir(destination_folder):
             print("Folder is empty")
         else:
-            subprocess.run(["python", "creates3bucket.py"])
-
-# Function to upload file
-def file_upload():
-    if check_folder() == True:
-        subprocess.run(["python", "upload.py"])
-        print("File uploaded successfully")
-    else:
-        print("Folder is empty")
-    
+            subprocess.run(["python", "textanalysis.py"])
+   
 
 # Creating the window
 window = Tk()
