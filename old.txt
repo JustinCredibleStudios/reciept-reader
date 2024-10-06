@@ -1,0 +1,31 @@
+Supply Store Receipt
+Store Name: Best Supplies
+Address: 1234 Supply Lane, Cityville
+Phone: (123) 456-7890
+Date: 2024-10-06 20:08
+Item
+Quantity
+Unit Price
+Total Price
+Printer Paper (500 sheets)
+2
+$5.99
+$11.98
+Blue Ballpoint Pens (Pack of 12)
+3
+$3.49
+$10.47
+Stapler
+1
+$12.99
+$12.99
+Desk Organizer
+1
+$8.99
+$8.99
+Subtotal
+$44.43
+Tax (7%)
+$3.11
+Total
+$47.54
