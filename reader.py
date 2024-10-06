@@ -3,9 +3,10 @@
 
 # Importing Libararies
 import os
+import boto3
 from tkinter import *
 from tkinter import filedialog
-import boto3
+
             
 def textanalysis():
     file_name = filedialog.askopenfilename(filetypes=[("PDF files", "*.pdf")])
@@ -33,7 +34,7 @@ window = Tk()
 
 # Contructing the window
 window.title("Receipt Reader")
-window.geometry("500x500")
+window.geometry("50x50")
 
 button = Button(window, text="anaylze", command=textanalysis)
 button.pack()
