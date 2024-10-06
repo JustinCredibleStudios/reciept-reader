@@ -44,6 +44,15 @@ def check_folder():
         else:
             subprocess.run(["python", "creates3bucket.py"])
 
+# Function to upload file
+def file_upload():
+    if check_folder() == True:
+        subprocess.run(["python", "upload.py"])
+        print("File uploaded successfully")
+    else:
+        print("Folder is empty")
+    
+
 # Creating the window
 window = Tk()
 
